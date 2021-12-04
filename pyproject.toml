@@ -1,0 +1,11 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=42", "wheel", "pandas", 'argparse', "argcomplete", 'dash', 'sortedcontainers']
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+minversion = "6.0"
+testpaths = [
+  "tests",
+  "integration",
+]

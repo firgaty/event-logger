@@ -1,0 +1,7 @@
+2021-10-12 10:10:10 new my-id "Name"
+    "key1": "val1"
+    "key2": "val2"
+
+2021-10-12 10:10:11 ! my-id "Name"
+    "key1": "val1"
+    "key2": "val2"
